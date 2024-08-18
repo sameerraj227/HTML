@@ -1,0 +1,22 @@
+*{
+    margin: 50px;
+    padding: 3px;
+}
+
+.container{
+    height: auto;
+    width: 2000;
+    border: 10px solid rgb(46, 60, 39);
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+}
+.studs{
+    background-color: rgb(31, 0, 17);
+    margin: 50px;
+    padding: 3px;
+    td{color: rgba(206, 206, 206, 0.968);
+        margin: 50px;
+        padding: 4px;
+    }
+}
