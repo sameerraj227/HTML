@@ -6,31 +6,42 @@
     <title>Brazzers</title>
 </head>
 <body>
+<div>
 <style>
 .subscribe_button{
     background-color: rgb(165, 42, 42);
     color: white;
     border: none;
     border-radius: 1px;
-    height: 30px;
-    width: 100px;
     cursor: pointer;
-    transition: opacity 0.15s;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    transition: padding-top 0.5s,
+    padding-bottom 0.5s,
+    padding-left 0.5s,
+    padding-right 0.5s;
 }
 
 .subscribe_button:hover{
 
-
 /* will now add HOVERand ACTIVE(and faded patterns to the button) */
 
 /* opacity: it is used to fade the button // opacity range is b/w 0.0 to 1.0 ; */
-opacity: 0.7;
+/* opacity: 0.7; */
+padding-right: 36px;
+padding-left: 36px;
+padding-bottom: 18px;
+padding-top: 18px;
+
 
 }
 .subscribe_button:active{
-    opacity: 0.5;
+    opacity: 0.5;   
+    margin-top: 3px;
+    margin-left: 3px;
 }
-
 
 .Join_button{
     background-color: white;
@@ -40,15 +51,22 @@ opacity: 0.7;
     border-style: solid ;
     border-width: 1px;
     height: 30px;
-    width: 62px;
     cursor: pointer ;
-    margin-left: 3px;
-    transition: background-color 0.2s,color 0.2s;
+    transition: background-color 0.5s,color 0.5s;
+    transition: padding 0.5s,margin 0.5s;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
     }
 
 .Join_button:hover{
     background-color: rgb(41, 118, 211);
     color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
     
 }
 .Join_button:active{
@@ -86,7 +104,7 @@ opacity: 0.7;
 
 }
 .Add_to_cart:hover{
-    background-color: rgb(220, 185, 8);
+    background-color: rgb(224, 189, 10);
 
 }
 .Add_to_cart:active{
@@ -94,9 +112,10 @@ opacity: 0.7;
 }
 
     </style>
-    <button class="subscribe_button">SUBSCRIBE</button>
+<button class="subscribe_button">SUBSCRIBE</button>
     <button class="Join_button">JOIN</button>
     <button class="Tweet_button">Tweet</button>
     <button class="Add_to_cart">Add to Cart</button>
+</div> 
 </body>
 </html>
